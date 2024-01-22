@@ -1,0 +1,41 @@
+html,body{
+	height:100%;
+	display:flex;
+}
+body{
+	width:100%;
+}
+main{
+	width:100%;
+	display:flex;
+}
+div{
+	border: 1px solid;
+	flex-wrap: nowrap;
+}
+.leftPannel, .rightPannel{
+	display:flex;
+	flex-direction:column;
+}
+textarea{
+	height:80%;
+	resize:none;
+}
+
+.botones{
+	display:flex;
+	justify-content:center;
+	height:20%;
+	align-items:center;
+}
+.botones button{
+	height:30%;
+	margin:5%;
+	width:20%;
+}
+main div{
+	flex-grow:1;
+}
+#textoRespuesta{
+	height:80%;
+}

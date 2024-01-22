@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="stylesIndex.css">
+  </head>
+
+  <body>
+    <main>
+      <div class="leftPannel" style="flex-grow:2";>
+        <textarea placeholder="Escribe aqui tu texto"></textarea>
+        <div class="botones">
+        <button>Encriptar</button>
+        <button>Desencriptar</button>
+        </div>
+      </div>
+      <div class="rightPannel" style="flex-flow:1">
+        <p id="textoRespuesta"></p>
+        <div class="botones">
+        <button id="botonCalcular" style="width:40%">Copiar</button>
+        </div>
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
