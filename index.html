@@ -12,14 +12,14 @@
       <div class="leftPannel" style="flex-grow:2";>
         <textarea placeholder="Escribe aqui tu texto"></textarea>
         <div class="botones">
-        <button>Encriptar</button>
-        <button>Desencriptar</button>
+        <button id="botonEncriptar" onclick="encriptarButton()">Encriptar</button>
+        <button id="botonDesencriptar">Desencriptar</button>
         </div>
       </div>
-      <div class="rightPannel" style="flex-flow:1">
+      <div class="rightPannel" style="flex-flow:1; max-width:28%" >
         <p id="textoRespuesta"></p>
         <div class="botones">
-        <button id="botonCalcular" style="width:40%">Copiar</button>
+        <button id="botonCalcular"  style="width:40%">Copiar</button>
         </div>
       </div>
     </main>

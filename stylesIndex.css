@@ -32,10 +32,13 @@ textarea{
 	height:30%;
 	margin:5%;
 	width:20%;
+	font-size:1em;
 }
 main div{
 	flex-grow:1;
 }
 #textoRespuesta{
+	display:flex;
 	height:80%;
+	overflow:auto;
 }
