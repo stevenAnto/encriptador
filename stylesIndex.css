@@ -9,10 +9,6 @@ main{
 	width:100%;
 	display:flex;
 }
-/*div{
-	border: 1px solid;
-	flex-wrap: nowrap;
-}*/
 .leftPannel, .rightPannel{
 	background-color:#F3F4FD;
 	display:flex;
@@ -57,9 +53,17 @@ textarea{
 .boton:hover{
 	background-color:#F3F4FD;
 	color:#0A3871;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-main div{
-	flex-grow:1;
+#rightWrap{
+	background-color:white;
+	display:flex;
+	height:95%;
+	width:95%;
+	flex-direction:column;
+	margin:auto;
+	border-radius:1em;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 #contenedorTextoRespuesta{
 	display:flex;
@@ -82,6 +86,12 @@ main div{
 	height:20%;
 }
 #botonCalcular{
-width:80%;
-margin: auto;
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:23%;
 }
+/*div{
+	border: 1px solid;
+	flex-wrap: nowrap;
+}*/
