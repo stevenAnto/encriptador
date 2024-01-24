@@ -10,16 +10,22 @@
   <body>
     <main>
       <div class="leftPannel" style="flex-grow:2";>
-        <textarea placeholder="Escribe aqui tu texto"></textarea>
-        <div class="botones">
-        <button id="botonEncriptar" onclick="encriptarButton()">Encriptar</button>
-        <button id="botonDesencriptar" onclick= "desencriptarButton()">Desencriptar</button>
+        <div id="contenedorTextarea">
+          <textarea placeholder="Escribe aqui tu texto"></textarea>
+        </div>
+        <div id="contenedorBotones">
+          <div id="leftBotones">
+            <button id="botonEncriptar" onclick="encriptarButton()">Encriptar</button>
+            <button id="botonDesencriptar" onclick= "desencriptarButton()">Desencriptar</button>
+          </div>
         </div>
       </div>
       <div class="rightPannel" style="flex-flow:1; max-width:28%" >
-        <p id="textoRespuesta"></p>
-        <div class="botones">
-        <button id="botonCalcular"  style="width:40%">Copiar</button>
+        <div id="contenedorTextoRespuesta">
+          <p id="textoRespuesta"></p>
+        </div>
+        <div id="contenedorBotonCopiar">
+          <button id="botonCalcular">Copiar</button>
         </div>
       </div>
     </main>

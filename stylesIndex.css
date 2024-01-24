@@ -17,28 +17,48 @@ div{
 	display:flex;
 	flex-direction:column;
 }
+#contenedorTextarea{
+	display:flex;
+	height:80%;
+}
 textarea{
+	margin:auto;
+	width:80%;
 	height:80%;
 	resize:none;
 }
-
-.botones{
+#contenedorBotones{
 	display:flex;
-	justify-content:center;
 	height:20%;
-	align-items:center;
 }
-.botones button{
-	height:30%;
-	margin:5%;
-	width:20%;
-	font-size:1em;
+#leftBotones{
+	flex-grow:0;
+	margin:auto;
+	display:flex;
+	width:80%;
+	justify-content:space-between;
 }
 main div{
 	flex-grow:1;
 }
-#textoRespuesta{
+#contenedorTextoRespuesta{
 	display:flex;
 	height:80%;
-	overflow:auto;
+	overflow-x:scroll;
+	overflow-y:scroll;
+	justify-content:center;
+	text-align:center;
+}
+#textoRespuesta{
+	margin:auto;
+	width:80%;
+	height:95%;
+}
+#contenedorBotonCopiar{
+	display:flex;
+	height:20%;
+}
+#botonCalcular{
+width:80%;
+margin: auto;
 }
